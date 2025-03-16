@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+}
+.link a{
+    padding:1.2rem
+}
+.link a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(183, 190, 196, 0.603);
+    justify-content: center;
+    padding: 1rem;
+}
+.product div{
+    margin: 1rem;
+    box-shadow: 1px 1px 1px white;
+    background-color: white;
+    border-radius: 1rem;
+    
+}
+img{
+    height: 10rem;
+    margin: 1rem;
+}
+.product h3,p,button{
+    margin-left: 4.5rem;
+    margin-bottom: 0.8rem;
+}
+.product p{
+    color: rgb(0, 0, 255);
+}
+.product button{
+    background-color: rgba(12, 237, 12, 0.687);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.product div:hover{
+    transform: translate(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
